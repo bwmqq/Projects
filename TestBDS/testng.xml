@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="driverName" value="Chrome"></parameter>
+    <parameter name="userName" value="2978148291"></parameter>
+    <parameter name="passWord" value="1997nian."></parameter>
+    <test verbose="2" preserve-order="true" name="E:/Projects/TestBDS">
+        <classes>
+            <class name="com.fxy.baidu.testCase.BDLogin">
+                <methods>
+                    <include name="login"></include>
+                    <include name="cergodic"></include>
+                    <include name="loginOut"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

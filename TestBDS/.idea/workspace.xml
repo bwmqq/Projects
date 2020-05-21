@@ -1,8 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="05d036dc-d43d-4b46-a458-da23751b0970" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BDhomePage.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookie.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homePage.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/fxy/baidu/base/DriverBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/fxy/baidu/base/SelectDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/fxy/baidu/business/BDErgodicPro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/fxy/baidu/business/BDLoginOutPro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/fxy/baidu/business/BDLoginPro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/fxy/baidu/driver/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/fxy/baidu/handle/BDErgodicHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/fxy/baidu/handle/BDLoginHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/fxy/baidu/handle/BDLoginOutHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/fxy/baidu/page/BDErgodicPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/fxy/baidu/page/BDLoginOutPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/fxy/baidu/page/BDLoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/fxy/baidu/testCase/BDLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/fxy/baidu/testCase/CaseBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/fxy/baidu/testCase/TestLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/fxy/baidu/util/GetLocator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/fxy/baidu/util/HandleCookie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/fxy/baidu/util/ProUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/fxy/baidu/util/RetryListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/fxy/baidu/util/SendEmail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/fxy/baidu/util/TestNGListenerScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/fxy/baidu/util/TestngRetry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +80,111 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Projects\TestBDS" />
+      <recent name="E:\Projects\TestBDS\src" />
+      <recent name="E:\Projects\TestBDS\src\test\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.E:/Projects/TestBDS/testng.xml">
+    <configuration name="BDLogin (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestBDS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fxy.baidu.testCase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fxy.baidu.testCase" />
+      <option name="MAIN_CLASS_NAME" value="com.fxy.baidu.testCase.BDLogin" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BDLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestBDS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fxy.baidu.testCase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fxy.baidu.testCase" />
+      <option name="MAIN_CLASS_NAME" value="com.fxy.baidu.testCase.BDLogin" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BDLogin.loginOut" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestBDS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fxy.baidu.testCase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fxy.baidu.testCase" />
+      <option name="MAIN_CLASS_NAME" value="com.fxy.baidu.testCase.BDLogin" />
+      <option name="METHOD_NAME" value="loginOut" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="E:/Projects/TestBDS/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestBDS" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestBDS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fxy.baidu.testCase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fxy.baidu.testCase" />
+      <option name="MAIN_CLASS_NAME" value="com.fxy.baidu.testCase.TestLogin" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.E:/Projects/TestBDS/testng.xml" />
+        <item itemvalue="TestNG.BDLogin (1)" />
+        <item itemvalue="TestNG.BDLogin.loginOut" />
+        <item itemvalue="TestNG.BDLogin" />
+        <item itemvalue="TestNG.TestLogin" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SshConsoleOptionsProvider">
     <option name="myEncoding" value="UTF-8" />
@@ -52,32 +200,61 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590050650437</updated>
-      <workItem from="1590050652722" duration="316000" />
+      <workItem from="1590050652722" duration="1520000" />
+      <workItem from="1590052190534" duration="3605000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1590050739051">
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1590055658829">
       <screen x="1899" y="-1080" width="1920" height="1034" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom/1899.-1080.1920.1034/0.0.2560.1409@1899.-1080.1920.1034" timestamp="1590050739051" />
-    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1590050739051">
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom/1899.-1080.1920.1034/0.0.2560.1409@1899.-1080.1920.1034" timestamp="1590055658829" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1590055658829">
       <screen x="1899" y="-1080" width="1920" height="1034" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.center/1899.-1080.1920.1034/0.0.2560.1409@1899.-1080.1920.1034" timestamp="1590050739051" />
-    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1590050739050">
+    <state width="1877" height="285" key="GridCell.Tab.0.center/1899.-1080.1920.1034/0.0.2560.1409@1899.-1080.1920.1034" timestamp="1590055658829" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1590055658829">
       <screen x="1899" y="-1080" width="1920" height="1034" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.left/1899.-1080.1920.1034/0.0.2560.1409@1899.-1080.1920.1034" timestamp="1590050739050" />
-    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1590050739051">
+    <state width="1877" height="285" key="GridCell.Tab.0.left/1899.-1080.1920.1034/0.0.2560.1409@1899.-1080.1920.1034" timestamp="1590055658829" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1590055658829">
       <screen x="1899" y="-1080" width="1920" height="1034" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.right/1899.-1080.1920.1034/0.0.2560.1409@1899.-1080.1920.1034" timestamp="1590050739051" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right/1899.-1080.1920.1034/0.0.2560.1409@1899.-1080.1920.1034" timestamp="1590055658829" />
+    <state x="2522" y="-853" width="672" height="678" key="search.everywhere.popup" timestamp="1590052700022">
+      <screen x="1899" y="-1080" width="1920" height="1034" />
+    </state>
+    <state x="2522" y="-853" width="672" height="678" key="search.everywhere.popup/1899.-1080.1920.1034/0.0.2560.1409@1899.-1080.1920.1034" timestamp="1590052700022" />
   </component>
 </project>
