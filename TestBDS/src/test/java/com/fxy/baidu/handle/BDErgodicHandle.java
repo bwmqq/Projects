@@ -18,7 +18,7 @@ public class BDErgodicHandle {
         for (WebElement el : ergodic) {
             driverBase.click(el);
             try {
-                Thread.sleep(500);
+                Thread.sleep(1000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
