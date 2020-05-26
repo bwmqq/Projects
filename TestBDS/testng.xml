@@ -2,8 +2,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <parameter name="driverName" value="Chrome"></parameter>
+    <parameter name="url" value="https://www.baidu.com/"></parameter>
     <parameter name="userName" value="2978148291"></parameter>
     <parameter name="passWord" value="1997nian."></parameter>
+
     <test verbose="2" preserve-order="true" name="E:/Projects/TestBDS">
         <classes>
             <class name="com.fxy.baidu.testCase.BDLogin">

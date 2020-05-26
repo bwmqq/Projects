@@ -24,9 +24,9 @@ public class BDLogin extends CaseBase {
         handleCookie = new HandleCookie(driver);
     }
     @BeforeTest
-    @Parameters({"userName", "passWord"})
-    public void login(String userName, String passWord) throws Exception {
-        driver.get("https://www.baidu.com/");
+    @Parameters({"userName", "passWord", "url"})
+    public void login(String userName, String passWord, String url) throws Exception {
+        driver.get(url);
         driver.max();
         driver.timeouts();
         bdLogin.login(userName, passWord);
