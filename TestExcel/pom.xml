@@ -61,6 +61,12 @@
       <artifactId>commons-io</artifactId>
       <version>LATEST</version>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-email -->
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-email</artifactId>
+      <version>LATEST</version>
+    </dependency>
 
   </dependencies>
 

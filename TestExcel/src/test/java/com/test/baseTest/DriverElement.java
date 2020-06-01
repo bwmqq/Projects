@@ -1,8 +1,12 @@
 package com.test.baseTest;
 
 import com.test.pageTest.DriverElementPage;
+import com.test.util.HandleCookie;
 import com.test.util.log;
+import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 
 import java.util.ArrayList;
@@ -16,7 +20,10 @@ public class DriverElement {
         List<String> handles = new ArrayList<String>(winHandels);
         return handles;
     }*/
-    public static void execute (WebDriver driver, String elementName, String mode, String objects, String actions, String parameters) throws Exception {
+/*
+    public WebDriver driver;*/
+
+    public static void execute (WebDriver driver, String Preconditions, String elementName, String mode, String objects, String actions, String parameters) throws Exception {
         DriverElementPage driverElementPage = new DriverElementPage(driver);
         if (objects.equals("element")){
             if (actions.equals("click")){
@@ -40,17 +47,23 @@ public class DriverElement {
             if (actions.equals("get")){
                 //打开网页
                 log.info("访问网页" + parameters);
-                driver.get(parameters);
                 driver.manage().window().maximize();
+                driver.get(parameters);
+            }else if (actions.equals("newDriver")){
+                SelectDriver selectDriver = new SelectDriver();
+                selectDriver.driverName(parameters);
+                log.info("dashj");
             }else if (actions.equals("refresh")){
                 //刷新
                 driver.navigate().refresh();
             }else if (actions.equals("getTitle")){
                 //获取网页名称
-                driver.getTitle();
+                String title = driver.getTitle();
+                System.out.println(title);
             }else if (actions.equals("getCurrentUrl")){
                 //获取网页地址
-                driver.getCurrentUrl();
+                String currentUrl = driver.getCurrentUrl();
+                System.out.println(currentUrl);
             }else if (actions.equals("back")){
                 //返回
                 driver.navigate().back();
@@ -58,8 +71,16 @@ public class DriverElement {
                 //切换至alert弹窗
                 driver.switchTo().alert();
             }else if (actions.equals("getWindowHandle")){
-                //获取当前窗口
-                driver.getWindowHandle();
+                //获取当前窗口名称
+                String windowHandle = driver.getWindowHandle();
+            }else if (actions.equals("getCookie")){
+                //获取Cookies
+                HandleCookie handleCookie = new HandleCookie(driver);
+                handleCookie.writeCookie();
+            }else if (actions.equals("setCookie")){
+                //写入Cookies
+                HandleCookie handleCookie = new HandleCookie(driver);
+                handleCookie.setCookie(Preconditions, parameters);
             }
         }
     }

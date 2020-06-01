@@ -14,7 +14,7 @@ public class Screenshot{
 			//生成日期对象
 			Date date=new Date();
 			//调用DateUtil类中的方法，生成截图所在的文件夹日期类型
-			String picDir = "E:/Projects/TestExcel/errorImages/"+String.valueOf(DataUtil.getYear(date))+"-"
+			String picDir = "./errorImages/"+String.valueOf(DataUtil.getYear(date))+"-"
 			+String.valueOf(DataUtil.getMonth(date))+"-"+String.valueOf(DataUtil.getDay(date));
 			if(!new File(picDir).exists()){
 				FileUtil.createDir(picDir);

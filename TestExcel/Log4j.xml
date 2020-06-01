@@ -14,7 +14,7 @@
 		<!-- 定义日志信息级别为 info -->
 		<param name="Threshold" value="INFO"/>
 		<!-- 定义日志文件名为logs.log，日志文件与xml文件在同一文件夹下，若不存在则自动创建 -->
-		<param name="File" value="E:/Projects/TestExcel/logs/log4j.log"/>
+		<param name="File" value="../TestExcel/logs/log4j.log"/>
 		<layout class="org.apache.log4j.PatternLayout">
 			<!-- 定义日志格式 -->
 			<param name="ConversionPattern" value="%d %-5p [%c{1}] %m %n"/>

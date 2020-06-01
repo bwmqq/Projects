@@ -13,6 +13,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Properties;
 
 public class ExcelUtil {
 
@@ -73,6 +74,15 @@ public class ExcelUtil {
 
     //从EXCEL文件中获取测试数据
     public static Object[][] getTestData(String excelFilePath,String sheetName) throws IOException{
+        Properties properties =new Properties();
+        try{
+            FileInputStream in=new FileInputStream(excelFilePath);
+            properties.load(in);
+            in.close();
+        }catch(IOException e){
+            log.info("读取文件对象出错。");
+            e.printStackTrace();
+        }
         //声明一个file文件对象
         File file = new File(excelFilePath);
         //创建一个输入流

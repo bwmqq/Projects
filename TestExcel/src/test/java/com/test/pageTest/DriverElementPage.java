@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class DriverElementPage {
-    private ObjectMap objectMap = new ObjectMap("E:/Projects/TestExcel/Excel/SeleniumTest.xlsx");
+    private ObjectMap objectMap = new ObjectMap();
     private WebDriver driver;
     public DriverElementPage(WebDriver driver){
         this.driver = driver;

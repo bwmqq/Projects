@@ -2,23 +2,7 @@ package com.test.util;
 
 import org.openqa.selenium.By;
 
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.util.Properties;
-
 public class ObjectMap {
-	Properties properties;
-	public ObjectMap(String propFile){
-	properties =new Properties();
-	try{
-		FileInputStream in=new FileInputStream(propFile);
-		properties.load(in);
-		in.close();
-	}catch(IOException e){
-		log.info("读取文件对象出错");
-		e.printStackTrace();
-	}
-	}
 	
 	public By getLocator(String locatorType, String locatorValue) throws Exception{
 		//根据变量ElenmentNameInpropFile，从属性配置文件中读取对应的配置对象
@@ -28,7 +12,7 @@ public class ObjectMap {
 		//String locatorValue=locator.split(">")[1];
 		//在Eclipse中的配置文件均默认为ISO-8859-1编码存储，使用getBytes方法可以将字符
 		//转换为UTF-8编码，以此解决在配置文件中读取中文乱码的问题
-		locatorValue=new String(locatorValue.getBytes("ISO-8859-1"),"UTF-8");
+		locatorValue=new String(locatorValue.getBytes("UTF-8"),"UTF-8");
 		//输出locatorType变量值和locatorValue变量值，验证赋值是否正确
 		log.info("获取的定位类型为："+locatorType+"\t定位表达式为："+locatorValue);
 		//根据locatorType的变量值内容判断返回何种定位方式的By对象

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
+    <parameter name="driverName" value="Chrome"></parameter>
     <test verbose="2" preserve-order="true" name="E:/Projects/TestExcel">
         <classes>
             <class name="com.test.TestEC.TestS">
