@@ -12,7 +12,7 @@ public class SelectDriver {
             System.setProperty("webdriver.firefox.marionette", "D:/Install/driver/geckodriver.exe");
             return new FirefoxDriver();
         }else {
-            System.setProperty("webdriver.chrome.driver", "E:/WorkSpace/WorkSpace/BDSelenium/src/test/java/com/fxy/baidu/driver/chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", "../TestBDS/src/test/java/com/fxy/baidu/driver/chromedriver.exe");
             return new ChromeDriver();
         }
     }

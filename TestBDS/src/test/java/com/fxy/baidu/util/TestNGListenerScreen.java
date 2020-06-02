@@ -1,6 +1,5 @@
 package com.fxy.baidu.util;
 
-import com.fxy.baidu.testCase.BDLogin;
 import org.testng.ITestContext;
 import org.testng.ITestResult;
 import org.testng.TestListenerAdapter;
@@ -20,9 +19,9 @@ public class TestNGListenerScreen extends TestListenerAdapter{
         takeScreenShot(tr);
     }
     private void takeScreenShot(ITestResult tr) {
-        BDLogin b = (BDLogin) tr.getInstance();
+        /*BDLogin b = (BDLogin) tr.getInstance();
         // driver = b.driver;
-        b.driver.takeScreenShot();
+        b.driver.takeScreenShot();*/
 
     }
     @Override

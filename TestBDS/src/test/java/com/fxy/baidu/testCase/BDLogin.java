@@ -32,7 +32,7 @@ public class BDLogin extends CaseBase {
         bdLogin.login(userName, passWord);
         Thread.sleep(5000);
         driver.timeouts();
-        //handleCookie.writeCookie("token");
+        handleCookie.writeCookie("token");
     }
     @Test
     public void cergodic(){
