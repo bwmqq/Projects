@@ -14,6 +14,7 @@ import java.util.concurrent.TimeUnit;
 
 public class TestS {
     public WebDriver driver;
+
     /*public DriverElement driverElement = new DriverElement();*/
     //定义dataprovider,并命名为testData
     @DataProvider(name="testData")
@@ -40,12 +41,12 @@ public class TestS {
         try {
             DriverElement.execute(driver, Preconditions, elementName, mode, objects, actions, parameters);
         } catch (Exception e) {
-            /*
-             * 执行AddContactPersonAction类的execute方法失败时，catch语句可以捕获AssertionError类型
-             * 的异常，并设置Excel中测试数据行的执行结果为“测试失败”。由于Excel中的序号格式被默认设定
-             * 为带有一位小数点，所以使用 split("[.]"[0]) 语句获取序号的整数部分，并传给setCellData函
-             * 数在对应序号的测试数据行的最后一列设定“测试失败”
-             */
+
+             //执行AddContactPersonAction类的execute方法失败时，catch语句可以捕获AssertionError类型
+             //的异常，并设置Excel中测试数据行的执行结果为“测试失败”。由于Excel中的序号格式被默认设定
+             //为带有一位小数点，所以使用 split("[.]"[0]) 语句获取序号的整数部分，并传给setCellData函
+             //数在对应序号的测试数据行的最后一列设定“测试失败”
+
             ExcelUtil.setCellData(Integer.parseInt(CaseRow.split("[.]")[0]), ExcelUtil.getLastColumnNum(),"测试失败");
             log.info(CaseName + "失败");
             Screenshot.method(driver,CaseName + "失败");
@@ -58,13 +59,14 @@ public class TestS {
             try {
                 DriverElement.execute(driver, Preconditions, elementName, mode, objects, actions, parameters);
                 Thread.sleep(3000);
+                this.driver = DriverElement.webDriver;
             } catch (Exception e) {
-                *//*
-                 * 执行AddContactPersonAction类的execute方法失败时，catch语句可以捕获AssertionError类型
-                 * 的异常，并设置Excel中测试数据行的执行结果为“测试失败”。由于Excel中的序号格式被默认设定
-                 * 为带有一位小数点，所以使用 split("[.]"[0]) 语句获取序号的整数部分，并传给setCellData函
-                 * 数在对应序号的测试数据行的最后一列设定“测试失败”
-                 *//*
+
+                 //执行AddContactPersonAction类的execute方法失败时，catch语句可以捕获AssertionError类型
+                 //的异常，并设置Excel中测试数据行的执行结果为“测试失败”。由于Excel中的序号格式被默认设定
+                 //为带有一位小数点，所以使用 split("[.]"[0]) 语句获取序号的整数部分，并传给setCellData函
+                 //数在对应序号的测试数据行的最后一列设定“测试失败”
+
                 ExcelUtil.setCellData(Integer.parseInt(CaseRow.split("[.]")[0]), ExcelUtil.getLastColumnNum(),"测试失败");
                 log.info(CaseName + "失败");
                 Screenshot.method(driver,CaseName + "失败");
@@ -77,12 +79,12 @@ public class TestS {
             try {
                 DriverElement.execute(driver, Preconditions, elementName, mode, objects, actions, parameters);
             } catch (Exception e) {
-                *//*
-                 * 执行AddContactPersonAction类的execute方法失败时，catch语句可以捕获AssertionError类型
-                 * 的异常，并设置Excel中测试数据行的执行结果为“测试失败”。由于Excel中的序号格式被默认设定
-                 * 为带有一位小数点，所以使用 split("[.]"[0]) 语句获取序号的整数部分，并传给setCellData函
-                 * 数在对应序号的测试数据行的最后一列设定“测试失败”
-                 *//*
+
+                 //执行AddContactPersonAction类的execute方法失败时，catch语句可以捕获AssertionError类型
+                 //的异常，并设置Excel中测试数据行的执行结果为“测试失败”。由于Excel中的序号格式被默认设定
+                 //为带有一位小数点，所以使用 split("[.]"[0]) 语句获取序号的整数部分，并传给setCellData函
+                 //数在对应序号的测试数据行的最后一列设定“测试失败”
+
                 ExcelUtil.setCellData(Integer.parseInt(CaseRow.split("[.]")[0]), ExcelUtil.getLastColumnNum(),"测试失败");
                 log.info(CaseName + "失败");
                 Screenshot.method(driver,CaseName + "失败");

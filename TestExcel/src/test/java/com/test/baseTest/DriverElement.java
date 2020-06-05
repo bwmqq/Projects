@@ -20,8 +20,8 @@ public class DriverElement {
         List<String> handles = new ArrayList<String>(winHandels);
         return handles;
     }*/
-/*
-    public WebDriver driver;*/
+
+    public static WebDriver webDriver;
 
     public static void execute (WebDriver driver, String Preconditions, String elementName, String mode, String objects, String actions, String parameters) throws Exception {
         DriverElementPage driverElementPage = new DriverElementPage(driver);
@@ -51,8 +51,7 @@ public class DriverElement {
                 driver.get(parameters);
             }else if (actions.equals("newDriver")){
                 SelectDriver selectDriver = new SelectDriver();
-                selectDriver.driverName(parameters);
-                log.info("dashj");
+                webDriver = selectDriver.driverName(parameters);
             }else if (actions.equals("refresh")){
                 //刷新
                 driver.navigate().refresh();
