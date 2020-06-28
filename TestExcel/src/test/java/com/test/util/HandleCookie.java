@@ -14,10 +14,13 @@ public class HandleCookie {
 		this.driver = driver;
 		pro = new ProUtil("../TestExcel/cookie.properties");
 	}
-	public void setCookie(String token, String domain){
-		String value = pro.getPro(token);
-		Cookie cookie = new Cookie(token, value, domain, "/", null);
-		driver.manage().addCookie(cookie);
+	public void setCookie(String token){
+		String[] split = token.split(",");
+		for (int i = 0; i < split.length; i++) {
+			String value = pro.getPro(split[i]);
+			Cookie cookie = new Cookie(split[i], value);
+			driver.manage().addCookie(cookie);
+		}
 		driver.navigate().refresh();
 	}
 	//获取cookie

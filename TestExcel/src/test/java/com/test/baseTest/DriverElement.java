@@ -3,15 +3,8 @@ package com.test.baseTest;
 import com.test.pageTest.DriverElementPage;
 import com.test.util.HandleCookie;
 import com.test.util.log;
-import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
-
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Set;
 
 public class DriverElement {
     /*//获取当前系统窗口list
@@ -23,7 +16,8 @@ public class DriverElement {
 
     public static WebDriver webDriver;
 
-    public static void execute (WebDriver driver, String Preconditions, String elementName, String mode, String objects, String actions, String parameters) throws Exception {
+    public static void execute (WebDriver driver, String CaseName, String Preconditions, String elementName, String mode,
+                                String objects, String actions, String parameters) throws Exception {
         DriverElementPage driverElementPage = new DriverElementPage(driver);
         if (objects.equals("element")){
             if (actions.equals("click")){
@@ -42,6 +36,16 @@ public class DriverElement {
             }else if (actions.equals("frame")){
                 //切换iframa
                 driver.switchTo().frame(driverElementPage.DrElement(mode, elementName));
+            }else if (actions.equals("getText")){
+                String text = driverElementPage.DrElement(mode, elementName).getText();
+                if (text.equals(parameters)) {
+                    log.info(CaseName + "验证通过");
+                }else {
+                    log.error(CaseName + "验证失败，获取结果为：" + text + "；要求结果为：" + parameters);
+                    throw new Exception("验证失败");
+                }
+            }else {
+                log.info("所需要的操作不支持，请完善！！！");
             }
         }else {
             if (actions.equals("get")){
@@ -79,7 +83,12 @@ public class DriverElement {
             }else if (actions.equals("setCookie")){
                 //写入Cookies
                 HandleCookie handleCookie = new HandleCookie(driver);
-                handleCookie.setCookie(Preconditions, parameters);
+                handleCookie.setCookie(Preconditions);
+            }else if (actions.equals("Thead")){
+                //等待3秒
+                Thread.sleep(Long.valueOf(parameters));
+            }else {
+                log.info("所需要的操作不支持，请完善！！！");
             }
         }
     }

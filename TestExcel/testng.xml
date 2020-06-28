@@ -1,8 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite">
+<suite name="All Test Suite" parallel="false" thread-count="1">
     <parameter name="driverName" value="Chrome"></parameter>
-    <test verbose="2" preserve-order="true" name="E:/Projects/TestExcel">
+    <!--<test verbose="2" preserve-order="true" name="登录脑健康官网">
+        <parameter name="TestDataExcelFileSheet" value="Sheet1"></parameter>
+        <classes>
+            <class name="com.test.TestEC.TestS">
+                <methods>
+                    <include name="testEC"/>
+                </methods>
+            </class>
+        </classes>
+    </test>-->
+    <!--<test verbose="2" preserve-order="true" name="登录博客园官网">
+        <parameter name="TestDataExcelFileSheet" value="Sheet2"></parameter>
+        <classes>
+            <class name="com.test.TestEC.TestS">
+                <methods>
+                    <include name="testEC"/>
+                </methods>
+            </class>
+        </classes>
+    </test>-->
+    <test verbose="2" preserve-order="true" name="想要获取下载街cookie">
+        <parameter name="TestDataExcelFileSheet" value="Sheet3"></parameter>
         <classes>
             <class name="com.test.TestEC.TestS">
                 <methods>
