@@ -6,6 +6,7 @@ import org.apache.log4j.xml.DOMConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.opera.OperaDriver;
 import org.testng.Assert;
 import org.testng.ITestContext;
 import org.testng.annotations.*;
@@ -74,9 +75,13 @@ public class TestS {
     @Parameters({"driverName"})
     public void beforeMethod(String driverName){
         if (driverName.equalsIgnoreCase("fireFox")){
-            System.setProperty("webdriver.chrome.driver", "../TestExcel/driver/chromedriver.exe");
+            System.setProperty("webdriver.gecko.driver", "../TestExcel/driver/geckodriver.exe");
             driver = new FirefoxDriver();
             log.info("启动火狐浏览器");
+        }else if (driverName.equalsIgnoreCase("Opera")){
+            System.setProperty("webdriver.opera.driver", "../TestExcel/driver/operadriver.exe");
+            driver = new OperaDriver();
+            log.info("启动欧朋浏览器");
         }else {
             System.setProperty("webdriver.chrome.driver", "../TestExcel/driver/chromedriver.exe");
             driver = new ChromeDriver();

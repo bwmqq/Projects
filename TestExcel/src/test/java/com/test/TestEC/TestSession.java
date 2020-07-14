@@ -20,7 +20,7 @@ public class TestSession {
         ChromeDriver driver = new ChromeDriver();
         driver.get("https://healthpc.qajeejio.com/");
         driver.manage().window().maximize();
-        driver.findElementByCssSelector("input[type='text']").sendKeys("17701333349");
+        /*driver.findElementByCssSelector("input[type='text']").sendKeys("17701333349");
         driver.findElementByCssSelector("input[type='password']").sendKeys("1234qwer");
         Thread.sleep(500);
         driver.findElementByCssSelector(".BlueLogin").click();
@@ -29,18 +29,15 @@ public class TestSession {
         Set<String> strings = sessionStorage.keySet();
         List<String> strings1 = new ArrayList<String>(strings);
         Properties pro = new Properties();
-        FileOutputStream file = new FileOutputStream("../TestExcel/session.properties");
+        FileOutputStream file = new FileOutputStream("../TestExcel/src/test/resources/session.properties");
         for (String key : strings1) {
             pro.setProperty(key, sessionStorage.getItem(key));
         }
         pro.store(file, "Session");
-        /*sessionStorage.setItem("1111", "22222");
-        driver.navigate().refresh();
-        Thread.sleep(20000);*/
-        driver.quit();
+        sessionStorage.setItem("1111", "22222");
+        driver.navigate().refresh();*/
 
-
-        System.setProperty("webdriver.chrome.driver", "../TestExcel/driver/chromedriver.exe");
+        /*System.setProperty("webdriver.chrome.driver", "../TestExcel/driver/chromedriver.exe");
         log.info("启动谷歌浏览器");
         ChromeDriver driver1 = new ChromeDriver();
         driver1.get("https://healthpc.qajeejio.com/index");
@@ -55,6 +52,6 @@ public class TestSession {
         }
         driver1.navigate().refresh();
         Thread.sleep(20000);
-        driver1.quit();
+        driver1.quit();*/
     }
 }

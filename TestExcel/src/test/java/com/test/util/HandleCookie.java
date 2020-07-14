@@ -12,7 +12,7 @@ public class HandleCookie {
 	public ProUtil pro;
 	public HandleCookie(WebDriver driver){
 		this.driver = driver;
-		pro = new ProUtil("../TestExcel/cookie.properties");
+		pro = new ProUtil("../TestExcel/src/test/resources/cookie.properties");
 	}
 	public void setCookie(String token){
 		String[] split = token.split(",");
