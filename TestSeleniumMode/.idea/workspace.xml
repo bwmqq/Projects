@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="97fefd88-bcd8-411f-a716-05fdd3f17849" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../TestExcel1/.idea/TestExcel.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestExcel1/.idea/TestExcel1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestExcel1/TestExcel.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestExcel1/errorImages/2020-8-6/10时46分53秒点击技能包tab失败.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestExcel1/errorImages/2020-8-6/10时47分13秒点击查看失败.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestExcel1/errorImages/2020-8-6/10时47分13秒点击阶段信息失败.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/TestSeleniumMode.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excel/TestExcelCase.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excel/TestExcelMode.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestSeleniumMode.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/driver/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/driver/geckodriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/driver/operadriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/log4j.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fan/selenium/testMode/TestSC/TestCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fan/selenium/testMode/TestSC/TestSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fan/selenium/testMode/base/DriverBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fan/selenium/testMode/base/DriverElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fan/selenium/testMode/base/SelectDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fan/selenium/testMode/page/DriverElementPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fan/selenium/testMode/util/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fan/selenium/testMode/util/DataUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fan/selenium/testMode/util/ExcelUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fan/selenium/testMode/util/FileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fan/selenium/testMode/util/HandleCookie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fan/selenium/testMode/util/ObjectMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fan/selenium/testMode/util/ProCookieUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fan/selenium/testMode/util/Screenshot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fan/selenium/testMode/util/SendEmail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fan/selenium/testMode/util/WaitMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fan/selenium/testMode/util/log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/cookie.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/objectMap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/session.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/cookie.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/fan/selenium/testMode/TestSC/TestCase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/fan/selenium/testMode/TestSC/TestSession.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/fan/selenium/testMode/base/DriverBase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/fan/selenium/testMode/base/DriverElement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/fan/selenium/testMode/base/SelectDriver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/fan/selenium/testMode/page/DriverElementPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/fan/selenium/testMode/util/Constant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/fan/selenium/testMode/util/DataUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/fan/selenium/testMode/util/ExcelUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/fan/selenium/testMode/util/FileUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/fan/selenium/testMode/util/HandleCookie.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/fan/selenium/testMode/util/ObjectMap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/fan/selenium/testMode/util/ProCookieUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/fan/selenium/testMode/util/Screenshot.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/fan/selenium/testMode/util/SendEmail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/fan/selenium/testMode/util/WaitMethod.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/fan/selenium/testMode/util/log.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/objectMap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/session.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestAppium/src/test/java/com/fxy/testApp/TestAppium.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TestAppium/src/test/java/com/fxy/testApp/TestAppium.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestAppium/target/test-classes/com/fxy/testApp/TestAppium.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TestAppium/target/test-classes/com/fxy/testApp/TestAppium.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestBDS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TestBDS/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestBDS/target/test-classes/com/fxy/baidu/testCase/TestTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TestBDS/target/test-classes/com/fxy/baidu/testCase/TestTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/Excel/SeleniumTest.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../TestExcel/Excel/SeleniumTest.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/errorImages/2020-7-14/16时52分1秒点击登录失败.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/errorImages/2020-7-14/16时52分21秒验证登录用户信息失败.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/logs/log4j.log" beforeDir="false" afterPath="$PROJECT_DIR$/../TestExcel/logs/log4j.log" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JupyterTrust" id="bf9ba335-1ffb-4b72-887d-4445bcac7732" />
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:\Intalls\JetBrains\IntelliJ IDEA 2020.2\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ffeqF5MO9lJV10HL7DJzdlavie" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Excel" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Projects\TestSeleniumMode\Excel" />
+      <recent name="E:\Projects\TestSeleniumMode\src\test\java\fan\selenium\testMode\TestSC" />
+      <recent name="E:\Projects\TestSeleniumMode\src\test\java\fan\selenium\testMode\page" />
+      <recent name="E:\Projects\TestSeleniumMode\src\test" />
+      <recent name="E:\Projects\TestSeleniumMode" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="E:/Projects/TestSeleniumMode/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestSeleniumMode" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.E:/Projects/TestSeleniumMode/testng.xml" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="97fefd88-bcd8-411f-a716-05fdd3f17849" name="Default Changelist" comment="" />
+      <created>1596613762444</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596613762444</updated>
+      <workItem from="1596706263659" duration="42000" />
+      <workItem from="1596706355190" duration="36000" />
+      <workItem from="1596706413936" duration="39000" />
+      <workItem from="1596706555506" duration="71000" />
+      <workItem from="1596707437493" duration="1008000" />
+      <workItem from="1596708570103" duration="66000" />
+      <workItem from="1596708884100" duration="13000" />
+      <workItem from="1596708938126" duration="12462000" />
+      <workItem from="1596779023737" duration="12418000" />
+      <workItem from="1597051008278" duration="1703000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="621" y="123" key="#TestCase" timestamp="1596705321127">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="621" y="123" key="#TestCase/0.0.1920.1050@0.0.1920.1050" timestamp="1596705321127" />
+    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596781910065">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1596781910065" />
+    <state x="677" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597043815426">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="677" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1597043815426" />
+    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1597048172178">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1597048172178" />
+    <state width="1877" height="234" key="GridCell.Tab.0.bottom" timestamp="1597052712215">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="234" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1597052712215" />
+    <state width="1877" height="234" key="GridCell.Tab.0.center" timestamp="1597052712215">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="234" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1597052712215" />
+    <state width="1877" height="234" key="GridCell.Tab.0.left" timestamp="1597052712215">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="234" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1597052712215" />
+    <state width="1877" height="234" key="GridCell.Tab.0.right" timestamp="1597052712215">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="234" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1597052712215" />
+    <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1597050205684">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1597050205684" />
+    <state width="1877" height="352" key="GridCell.Tab.1.center" timestamp="1597050205684">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1597050205684" />
+    <state width="1877" height="352" key="GridCell.Tab.1.left" timestamp="1597050205684">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1597050205684" />
+    <state width="1877" height="352" key="GridCell.Tab.1.right" timestamp="1597050205684">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1597050205684" />
+    <state x="770" y="171" key="SettingsEditor" timestamp="1596783733352">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="770" y="171" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1596783733352" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1597050191469">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1597050191469" />
+  </component>
+</project>
