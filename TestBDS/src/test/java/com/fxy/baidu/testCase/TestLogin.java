@@ -13,7 +13,7 @@ public class TestLogin extends CaseBase {
     @BeforeClass
     public void Login(){
         this.driver = InitDriver("chrome");
-        handleCookie = new HandleCookie(driver);
+        handleCookie = new HandleCookie(driver.getDriver());
     }
     /*@Test
     public void login(){
@@ -28,8 +28,8 @@ public class TestLogin extends CaseBase {
     @Test
     public void ziliao(){
         driver.get("http://www.gacjc.com/user/acc_info");
-        handleCookie.setCookie("token", ".gacjc.com");
-        driver.max();
+        handleCookie.setCookie("token");
+        driver.maxmize("null");
         driver.timeouts();
         driver.findElement(By.xpath("//*[@id=\"main\"]/div/div[1]/ul/li/ul/li[2]/a")).click();
     }

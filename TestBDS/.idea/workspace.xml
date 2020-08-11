@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -17,40 +20,137 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05d036dc-d43d-4b46-a458-da23751b0970" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/fxy/baidu/testCase/TestTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestExcel/cookie.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestExcel/errorImages/2020-5-28/20时39分28秒点击Selenium百度百科失败.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestExcel/errorImages/2020-5-29/16时29分51秒输入密码失败.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestExcel/errorImages/2020-5-29/16时43分7秒输入密码失败.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestExcel/errorImages/2020-5-29/16时5分55秒输入密码失败.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestExcel/logs/log4j.log.2020-05-26" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestExcel/logs/log4j.log.2020-05-28" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/util/HandleCookie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/util/ProUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/util/SendEmail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/driver/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/driver/geckodriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/driver/operadriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/log4j.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/fxy/baidu/util/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/fxy/baidu/util/DataUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/fxy/baidu/util/FileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/fxy/baidu/util/HandleSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/fxy/baidu/util/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/fxy/baidu/util/ProCookieUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/fxy/baidu/util/ProSessionUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/fxy/baidu/util/Screenshot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/fxy/baidu/util/WaitMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/cookie.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/objectMap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/session.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestAppium/src/test/java/com/fxy/testApp/TestAppium.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TestAppium/src/test/java/com/fxy/testApp/TestAppium.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestAppium/target/test-classes/com/fxy/testApp/TestAppium.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TestAppium/target/test-classes/com/fxy/testApp/TestAppium.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BDhomePage.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cookie.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fxy/baidu/base/DriverBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fxy/baidu/base/DriverBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/fxy/baidu/base/SelectDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fxy/baidu/base/SelectDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fxy/baidu/driver/chromedriver.exe" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/fxy/baidu/testCase/BDLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fxy/baidu/testCase/BDLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/fxy/baidu/util/TestNGListenerScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fxy/baidu/util/TestNGListenerScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/fxy/baidu/testCase/BDLogin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/fxy/baidu/testCase/TestLogin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/fxy/baidu/util/TestNGListenerScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/fxy/baidu/util/TestNGListenerScreen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestExcel/Excel/SeleniumTest.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../TestExcel/Excel/SeleniumTest.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestExcel/Log4j.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TestExcel/Log4j.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestExcel/logs/log4j.log" beforeDir="false" afterPath="$PROJECT_DIR$/../TestExcel/logs/log4j.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestExcel/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TestExcel/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/TestEC/TestS.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/TestEC/TestS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/baseTest/DriverElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/baseTest/DriverElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/pageTest/DriverElementPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/pageTest/DriverElementPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/util/ExcelUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/util/ExcelUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/util/ObjectMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/util/ObjectMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/util/Screenshot.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/util/Screenshot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestExcel/target/test-classes/com/test/TestEC/TestS.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TestExcel/target/test-classes/com/test/TestEC/TestS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestExcel/target/test-classes/com/test/baseTest/DriverElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TestExcel/target/test-classes/com/test/baseTest/DriverElement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestExcel/target/test-classes/com/test/pageTest/DriverElementPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TestExcel/target/test-classes/com/test/pageTest/DriverElementPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestExcel/target/test-classes/com/test/util/ExcelUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TestExcel/target/test-classes/com/test/util/ExcelUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestExcel/target/test-classes/com/test/util/ObjectMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TestExcel/target/test-classes/com/test/util/ObjectMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestExcel/target/test-classes/com/test/util/Screenshot.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TestExcel/target/test-classes/com/test/util/Screenshot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fxy/baidu/testCase/TestLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fxy/baidu/testCase/TestLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fxy/baidu/testCase/TestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fxy/baidu/testCase/TestTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fxy/baidu/util/GetLocator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fxy/baidu/util/GetLocator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fxy/baidu/util/HandleCookie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fxy/baidu/util/HandleCookie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fxy/baidu/util/ProUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fxy/baidu/util/ProUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fxy/baidu/util/RetryListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fxy/baidu/util/TestNGListenerScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fxy/baidu/util/TestngRetry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/fxy/baidu/base/DriverBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/fxy/baidu/base/DriverBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/fxy/baidu/base/SelectDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/fxy/baidu/base/SelectDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/fxy/baidu/testCase/BDLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/fxy/baidu/testCase/BDLogin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/fxy/baidu/testCase/TestLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/fxy/baidu/testCase/TestLogin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/fxy/baidu/testCase/TestTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/fxy/baidu/testCase/TestTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/fxy/baidu/util/GetLocator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/fxy/baidu/util/GetLocator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/fxy/baidu/util/HandleCookie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/fxy/baidu/util/HandleCookie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/fxy/baidu/util/RetryListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/fxy/baidu/util/TestNGListenerScreen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/fxy/baidu/util/TestngRetry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/.idea/$CACHE_FILE$" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/.idea/TestExcel.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/Excel/Excel模板.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/Excel/SeleniumTest.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/Log4j.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/TestExcel.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/driver/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/driver/geckodriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/driver/operadriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/errorImages/2020-7-14/16时52分1秒点击登录失败.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/errorImages/2020-7-14/16时52分21秒验证登录用户信息失败.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/logs/log4j.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/TestEC/TestS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/TestEC/TestSession.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/appModules/AddContactPersonAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/appModules/LoginAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/baseTest/DriverElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/baseTest/SelectDriver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/pageObjects/AddressBookPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/pageObjects/HomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/pageObjects/LinkmanPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/pageObjects/LoginPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/pageObjects/WaitByElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/pageTest/DriverElementPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/testCase/TestEmail163Login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/testCase/TestEmail163addContactPerson.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/util/Constant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/util/DataUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/util/ExcelUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/util/FileUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/util/HandleCookie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/util/ObjectMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/util/ProUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/util/Screenshot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/util/SendEmail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/util/WaitMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/util/log.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/resources/cookie.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/resources/objectMap.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/resources/session.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/target/test-classes/com/test/TestEC/TestS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/target/test-classes/com/test/TestEC/TestSession.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/target/test-classes/com/test/appModules/AddContactPersonAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/target/test-classes/com/test/appModules/LoginAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/target/test-classes/com/test/baseTest/DriverElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/target/test-classes/com/test/baseTest/SelectDriver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/target/test-classes/com/test/pageObjects/AddressBookPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/target/test-classes/com/test/pageObjects/HomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/target/test-classes/com/test/pageObjects/LinkmanPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/target/test-classes/com/test/pageObjects/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/target/test-classes/com/test/pageObjects/WaitByElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/target/test-classes/com/test/pageTest/DriverElementPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/target/test-classes/com/test/testCase/TestEmail163Login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/target/test-classes/com/test/testCase/TestEmail163addContactPerson.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/target/test-classes/com/test/util/Constant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/target/test-classes/com/test/util/DataUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/target/test-classes/com/test/util/ExcelUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/target/test-classes/com/test/util/FileUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/target/test-classes/com/test/util/HandleCookie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/target/test-classes/com/test/util/ObjectMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/target/test-classes/com/test/util/ProUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/target/test-classes/com/test/util/Screenshot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/target/test-classes/com/test/util/SendEmail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/target/test-classes/com/test/util/WaitMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/target/test-classes/com/test/util/log.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/target/test-classes/cookie.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/target/test-classes/objectMap.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/target/test-classes/session.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/testng.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel1/.idea/TestExcel.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel1/.idea/TestExcel1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel1/TestExcel.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel1/errorImages/2020-8-6/10时46分53秒点击技能包tab失败.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel1/errorImages/2020-8-6/10时47分13秒点击查看失败.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel1/errorImages/2020-8-6/10时47分13秒点击阶段信息失败.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestInOut/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestInOut/src/main/webapp/index.jsp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +167,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="JupyterTrust" id="bf9ba335-1ffb-4b72-887d-4445bcac7732" />
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:\Intalls\JetBrains\IntelliJ IDEA 2020.2\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="jdkForImporter" value="1.8" />
@@ -100,45 +206,29 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Projects\TestBDS" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Projects\TestBDS\src\test\java\com\fxy\baidu\driver" />
+      <recent name="E:\Projects\TestBDS\src\test\java\com\fxy\baidu\base" />
+      <recent name="E:\Projects\TestBDS\src\test\java\com\fxy\baidu\util" />
+      <recent name="E:\Projects\TestBDS\src\test" />
       <recent name="E:\Projects\TestBDS" />
-      <recent name="E:\Projects\TestBDS\src" />
-      <recent name="E:\Projects\TestBDS\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestTest.login">
-    <configuration name="BDLogin (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestBDS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.fxy.baidu.testCase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.fxy.baidu.testCase" />
-      <option name="MAIN_CLASS_NAME" value="com.fxy.baidu.testCase.BDLogin" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BDLogin" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestBDS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.fxy.baidu.testCase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.fxy.baidu.testCase" />
-      <option name="MAIN_CLASS_NAME" value="com.fxy.baidu.testCase.BDLogin" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -153,51 +243,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestBDS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.fxy.baidu.testCase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.fxy.baidu.testCase" />
-      <option name="MAIN_CLASS_NAME" value="com.fxy.baidu.testCase.TestTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestTest.login" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestBDS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.fxy.baidu.testCase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.fxy.baidu.testCase" />
-      <option name="MAIN_CLASS_NAME" value="com.fxy.baidu.testCase.TestTest" />
-      <option name="METHOD_NAME" value="login" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestTest.login" />
-        <item itemvalue="TestNG.TestTest" />
         <item itemvalue="TestNG.E:/Projects/TestBDS/testng.xml" />
-        <item itemvalue="TestNG.BDLogin" />
-        <item itemvalue="TestNG.BDLogin (1)" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SshConsoleOptionsProvider">
     <option name="myEncoding" value="UTF-8" />
     <option name="myConnectionType" value="NONE" />
@@ -222,11 +274,14 @@
       <workItem from="1590141969586" duration="1050000" />
       <workItem from="1590401746649" duration="1757000" />
       <workItem from="1590742155437" duration="6323000" />
+      <workItem from="1596710701467" duration="7001000" />
+      <workItem from="1596782077823" duration="3843000" />
+      <workItem from="1597117057348" duration="5954000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -260,56 +315,70 @@
       <screen x="1899" y="-1080" width="1920" height="1034" />
     </state>
     <state x="2451" y="-915" key="#Plugins/1899.-1080.1920.1034/0.0.2560.1409@1899.-1080.1920.1034" timestamp="1590143077718" />
-    <state x="2589" y="-809" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590055844408">
-      <screen x="1899" y="-1080" width="1920" height="1034" />
+    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597129042755">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1597129042755" />
+    <state x="690" y="275" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597124416603">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="690" y="275" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1597124416603" />
     <state x="2589" y="-809" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1899.-1080.1920.1034/0.0.2560.1409@1899.-1080.1920.1034" timestamp="1590055844408" />
     <state x="1991" y="-988" width="1736" height="866" key="DiffContextDialog" timestamp="1590056380209">
       <screen x="1899" y="-1080" width="1920" height="1034" />
     </state>
     <state x="1991" y="-988" width="1736" height="866" key="DiffContextDialog/1899.-1080.1920.1034/0.0.2560.1409@1899.-1080.1920.1034" timestamp="1590056380209" />
-    <state x="2639" y="-801" key="FileChooserDialogImpl" timestamp="1590057996917">
-      <screen x="1899" y="-1080" width="1920" height="1034" />
+    <state x="740" y="283" key="FileChooserDialogImpl" timestamp="1597042051189">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state x="740" y="283" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1597042051189" />
     <state x="2639" y="-801" key="FileChooserDialogImpl/1899.-1080.1920.1034/0.0.2560.1409@1899.-1080.1920.1034" timestamp="1590057996917" />
-    <state width="1877" height="198" key="GridCell.Tab.0.bottom" timestamp="1590751330792">
-      <screen x="1899" y="-1080" width="1920" height="1034" />
+    <state width="1877" height="352" key="GridCell.Tab.0.bottom" timestamp="1597129144326">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state width="1877" height="352" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1597129144326" />
     <state width="1877" height="352" key="GridCell.Tab.0.bottom/1899.-1080.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1590115391037" />
     <state width="1877" height="198" key="GridCell.Tab.0.bottom/1899.-1080.1920.1034/0.0.2560.1409@1899.-1080.1920.1034" timestamp="1590751330792" />
-    <state width="1877" height="198" key="GridCell.Tab.0.center" timestamp="1590751330792">
-      <screen x="1899" y="-1080" width="1920" height="1034" />
+    <state width="1877" height="352" key="GridCell.Tab.0.center" timestamp="1597129144326">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state width="1877" height="352" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1597129144326" />
     <state width="1877" height="352" key="GridCell.Tab.0.center/1899.-1080.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1590115391037" />
     <state width="1877" height="198" key="GridCell.Tab.0.center/1899.-1080.1920.1034/0.0.2560.1409@1899.-1080.1920.1034" timestamp="1590751330792" />
-    <state width="1877" height="198" key="GridCell.Tab.0.left" timestamp="1590751330792">
-      <screen x="1899" y="-1080" width="1920" height="1034" />
+    <state width="1877" height="352" key="GridCell.Tab.0.left" timestamp="1597129144326">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state width="1877" height="352" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1597129144326" />
     <state width="1877" height="352" key="GridCell.Tab.0.left/1899.-1080.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1590115391037" />
     <state width="1877" height="198" key="GridCell.Tab.0.left/1899.-1080.1920.1034/0.0.2560.1409@1899.-1080.1920.1034" timestamp="1590751330792" />
-    <state width="1877" height="198" key="GridCell.Tab.0.right" timestamp="1590751330792">
-      <screen x="1899" y="-1080" width="1920" height="1034" />
+    <state width="1877" height="352" key="GridCell.Tab.0.right" timestamp="1597129144326">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state width="1877" height="352" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1597129144326" />
     <state width="1877" height="352" key="GridCell.Tab.0.right/1899.-1080.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1590115391037" />
     <state width="1877" height="198" key="GridCell.Tab.0.right/1899.-1080.1920.1034/0.0.2560.1409@1899.-1080.1920.1034" timestamp="1590751330792" />
-    <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1590115391037">
-      <screen x="0" y="0" width="2560" height="1409" />
+    <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1597129144326">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1597129144326" />
     <state width="1877" height="352" key="GridCell.Tab.1.bottom/1899.-1080.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1590115391037" />
     <state width="1877" height="352" key="GridCell.Tab.1.bottom/1899.-1080.1920.1034/0.0.2560.1409@1899.-1080.1920.1034" timestamp="1590057481430" />
-    <state width="1877" height="352" key="GridCell.Tab.1.center" timestamp="1590115391037">
-      <screen x="0" y="0" width="2560" height="1409" />
+    <state width="1877" height="352" key="GridCell.Tab.1.center" timestamp="1597129144326">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1597129144326" />
     <state width="1877" height="352" key="GridCell.Tab.1.center/1899.-1080.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1590115391037" />
     <state width="1877" height="352" key="GridCell.Tab.1.center/1899.-1080.1920.1034/0.0.2560.1409@1899.-1080.1920.1034" timestamp="1590057481430" />
-    <state width="1877" height="352" key="GridCell.Tab.1.left" timestamp="1590115391037">
-      <screen x="0" y="0" width="2560" height="1409" />
+    <state width="1877" height="352" key="GridCell.Tab.1.left" timestamp="1597129144326">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1597129144326" />
     <state width="1877" height="352" key="GridCell.Tab.1.left/1899.-1080.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1590115391037" />
     <state width="1877" height="352" key="GridCell.Tab.1.left/1899.-1080.1920.1034/0.0.2560.1409@1899.-1080.1920.1034" timestamp="1590057481430" />
-    <state width="1877" height="352" key="GridCell.Tab.1.right" timestamp="1590115391037">
-      <screen x="0" y="0" width="2560" height="1409" />
+    <state width="1877" height="352" key="GridCell.Tab.1.right" timestamp="1597129144326">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1597129144326" />
     <state width="1877" height="352" key="GridCell.Tab.1.right/1899.-1080.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1590115391037" />
     <state width="1877" height="352" key="GridCell.Tab.1.right/1899.-1080.1920.1034/0.0.2560.1409@1899.-1080.1920.1034" timestamp="1590057481430" />
     <state x="2360" y="-911" key="SettingsEditor" timestamp="1590131021018">
@@ -317,9 +386,10 @@
     </state>
     <state x="615" y="230" key="SettingsEditor/1899.-1080.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1590119692257" />
     <state x="2360" y="-911" key="SettingsEditor/1899.-1080.1920.1034/0.0.2560.1409@1899.-1080.1920.1034" timestamp="1590131021018" />
-    <state x="2400" y="-852" key="new project wizard" timestamp="1590130924905">
-      <screen x="1899" y="-1080" width="1920" height="1034" />
+    <state x="501" y="232" key="new project wizard" timestamp="1596613761228">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state x="501" y="232" key="new project wizard/0.0.1920.1050@0.0.1920.1050" timestamp="1596613761228" />
     <state x="668" y="365" key="new project wizard/1899.-1080.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1590115387342" />
     <state x="2400" y="-852" key="new project wizard/1899.-1080.1920.1034/0.0.2560.1409@1899.-1080.1920.1034" timestamp="1590130924905" />
     <state x="2522" y="-853" width="672" height="678" key="search.everywhere.popup" timestamp="1590052700022">

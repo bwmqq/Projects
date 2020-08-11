@@ -1,11 +1,11 @@
 package com.fxy.baidu.base;
 
-import org.apache.commons.io.FileUtils;
+import com.fxy.baidu.util.HandleCookie;
+import com.fxy.baidu.util.HandleSession;
+import com.fxy.baidu.util.Log;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 
-import java.io.File;
-import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.concurrent.TimeUnit;
 
@@ -18,90 +18,44 @@ public class DriverBase {
     }
 
 
-    //模态框切换
-    public void awitchToMode(){
-        driver.switchTo().activeElement();
+
+
+    //等待时间
+    public void timeouts(){
+        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    //退出浏览器
+    public void quit(){
+        System.out.println("quit webdriver");
+        driver.quit();
+    }
+    //获取文案
+    public String getText(WebElement element) {
+        return element.getText();
+    }
     //获取Cookie
-    public List<Cookie> getCookie(){
-        Set<Cookie> cookies = driver.manage().getCookies();
-        List<Cookie> cookie = new ArrayList<Cookie>(cookies);
-        return cookie;
+    public void getCookie(){
+        HandleCookie handleCookie = new HandleCookie(driver);
+        handleCookie.writeCookie();
+    }
+    //获取Session
+    public void getSeesion() throws Exception {
+        HandleSession handleSession = new HandleSession(driver);
+        handleSession.writeSession();
+    }
+    //设置Session
+    public void setSeesion(String parameters) {
+        HandleSession handleSession = new HandleSession(driver);
+        handleSession.setSession(parameters);
     }
     //设置Cookie
-    public void setCookies(Cookie cookies){
-        driver.manage().addCookie(cookies);
-        driver.navigate().refresh();
+    public void setCookies(String parameters){
+        HandleCookie handleCookie = new HandleCookie(driver);
+        handleCookie.setCookie(parameters);
     }
     //删除Cookie
     public void deleteCookies(Cookie cookie){
         driver.manage().deleteCookie(cookie);
-    }
-    //刷新界面
-    public void refresh(){
-        driver.navigate().refresh();
-    }
-    //获取driver
-    public WebDriver getDriver(){
-        return driver;
-    }
-    //截图
-    public void takeScreenShot() {
-        //格式化时间
-        SimpleDateFormat sf = new SimpleDateFormat("yyyy_MM_dd_HH_mm_ss");
-        //等于Date date = new Date();
-        Calendar cal = Calendar.getInstance();
-        Date date = cal.getTime();
-        //时间转换为字符串
-        String dateStr = sf.format(date);
-        //当前类名 + 时间字符串 + .png
-        String path = this.getClass().getSimpleName() + "_" + dateStr + ".png";
-        //因为截图需要用到driver, 所以获取driver
-        takeScreenShot((TakesScreenshot) this.getDriver(), path);
-    }
-    //传入截图参数
-    public void takeScreenShot(TakesScreenshot drivername, String path) {
-        //获取当前工作空间路径
-        String currentPath = System.getProperty("user.dir"); // get current work
-        //截图
-        File scrFile = drivername.getScreenshotAs(OutputType.FILE);
-        try {
-            FileUtils.copyFile(scrFile, new File(currentPath + "\\" + path));
-        } catch (Exception e) {
-            e.printStackTrace();
-        } finally {
-            System.out.println("截图成功");
-        }
     }
     //封装Element
     public WebElement findElement(By by){
@@ -121,9 +75,17 @@ public class DriverBase {
     public boolean assertElement(WebElement element){
         return element.isDisplayed();
     }
+    //刷新界面
+    public void refresh(){
+        driver.navigate().refresh();
+    }
     //获取title
     public String getTitle(){
         return driver.getTitle();
+    }
+    //获取driver
+    public WebDriver getDriver(){
+        return driver;
     }
     //根据指定名称获取title
     public String getNameTitle(String win){
@@ -168,10 +130,6 @@ public class DriverBase {
     public void switchAlert(){
         driver.switchTo().alert();
     }
-    //等待时间
-    public void timeouts(){
-        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-    }
     //切换frame窗口
     public void frame(WebElement element){
         driver.switchTo().frame(element);
@@ -181,7 +139,7 @@ public class DriverBase {
         if (element != null){
             element.sendKeys(value);
         }else {
-            System.out.println("元素没有定位到,输入失败!");
+            Log.info("元素没有定位到,输入失败!");
         }
     }
     //封装点击
@@ -189,7 +147,7 @@ public class DriverBase {
         if (element != null){
             element.click();
         }else {
-            System.out.println("元素没有定位到,点击失败!");
+            Log.info("元素没有定位到,输入失败!");
         }
     }
     //清除当前文本框
@@ -198,28 +156,30 @@ public class DriverBase {
     }
     //关闭驱动
     public void close(){
-        System.out.println("close webdriver");
+        Log.info("close webdriver");
         driver.close();
     }
-    //退出浏览器
-    public void quit(){
-        System.out.println("quit webdriver");
-        driver.quit();
-    }
-    //访问地址
-    public void get(String url){
-        driver.get(url);
-    }
-    //网页最大化
-    public void max(){
-        driver.manage().window().maximize();
+    //获取当前url
+    public String getUrl(){
+        return driver.getCurrentUrl();
     }
     //点击返回
     public void back(){
         driver.navigate().back();
     }
-    //获取当前url
-    public String getUrl(){
-        return driver.getCurrentUrl();
+    //自定义浏览器大小
+    //网页最大化
+    public void maxmize(String vlues){
+        if ("null".equals(vlues)){
+            driver.manage().window().maximize();
+        }else {
+            String[] split = vlues.split(",");
+            Dimension dimension = new Dimension(Integer.parseInt(split[0]), Integer.parseInt(split[1]));
+            driver.manage().window().setSize(dimension);
+        }
+    }
+    //访问地址
+    public void get(String url){
+        driver.get(url);
     }
 }

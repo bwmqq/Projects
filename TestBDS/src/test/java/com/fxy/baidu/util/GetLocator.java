@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 public class GetLocator {
     //封装By
     public static By GetLocator(String key){
-        ProUtil proUtil = new ProUtil("../TestBDS/BDhomePage.properties");
+        ProUtil proUtil = new ProUtil(Constant.TestDataExcelFilePath);
         String locator = proUtil.getPro(key);
         String locatorType = locator.split(">")[0];
         String locatorValue = locator.split(">")[1];

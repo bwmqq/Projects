@@ -5,7 +5,7 @@ import com.fxy.baidu.business.BDErgodicPro;
 import com.fxy.baidu.business.BDLoginOutPro;
 import com.fxy.baidu.business.BDLoginPro;
 import com.fxy.baidu.util.HandleCookie;
-import com.fxy.baidu.util.SendEmail;
+import org.apache.log4j.xml.DOMConfigurator;
 import org.testng.annotations.*;
 
 public class BDLogin extends CaseBase {
@@ -21,35 +21,33 @@ public class BDLogin extends CaseBase {
         bdLogin = new BDLoginPro(driver);
         bdErgodic = new BDErgodicPro(driver);
         bdLoginOutPro = new BDLoginOutPro(driver);
-        handleCookie = new HandleCookie(driver);
+        handleCookie = new HandleCookie(driver.getDriver());
     }
     @BeforeTest
     @Parameters({"userName", "passWord", "url"})
     public void login(String userName, String passWord, String url) throws Exception {
+        DOMConfigurator.configure("Log4j.xml");
         driver.get(url);
-        driver.max();
+        driver.maxmize("null");
         driver.timeouts();
         bdLogin.login(userName, passWord);
         Thread.sleep(5000);
-        driver.timeouts();
-        handleCookie.writeCookie("token");
+        driver.getCookie();
     }
     @Test
     public void cergodic(){
         driver.defaultWindouws();
-        driver.timeouts();
         bdErgodic.ergodic();
     }
     @Test
     public void loginOut(){
         driver.defaultWindouws();
-        driver.timeouts();
         bdLoginOutPro.loginOut();
     }
     @AfterSuite
     public void Quit() throws Exception {
         Thread.sleep(2000);
         driver.quit();
-        SendEmail.sendToEmail("测试结束");
+        //SendEmail.sendToEmail("测试结束");
     }
 }

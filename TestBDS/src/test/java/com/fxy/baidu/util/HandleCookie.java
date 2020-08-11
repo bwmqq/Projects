@@ -1,30 +1,38 @@
 package com.fxy.baidu.util;
 
-import com.fxy.baidu.base.DriverBase;
 import org.openqa.selenium.Cookie;
+import org.openqa.selenium.WebDriver;
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
 
 public class HandleCookie {
-	public DriverBase driver;
-	public ProUtil pro;
-	public HandleCookie(DriverBase driver){
+	public WebDriver driver;
+	public ProCookieUtil pro;
+	public HandleCookie(WebDriver driver){
 		this.driver = driver;
-		pro = new ProUtil("../TestBDS/cookie.properties");
+		pro = new ProCookieUtil(Constant.TestDataCookieFilePath);
 	}
-	public void setCookie(String token, String domain){
-		String value = pro.getPro(token);
-		Cookie cookie = new Cookie(token, value, domain, "/", null);
-		driver.setCookies(cookie);
+	public void setCookie(String token){
+		String[] split = token.split(",");
+		for (int i = 0; i < split.length; i++) {
+			String value = pro.getPro(split[i]);
+			Cookie cookie = new Cookie(split[i], value);
+			driver.manage().addCookie(cookie);
+		}
+		driver.navigate().refresh();
 	}
 	//获取cookie
-	public void writeCookie(String cookie){
+	public void writeCookie(){
 		try {
 			Thread.sleep(3000);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
-		List<Cookie> cookies = driver.getCookie();
-		pro.writePro(cookies);
+		Set<Cookie> cookieSet = driver.manage().getCookies();
+		List<Cookie> cookieList = new ArrayList<Cookie>(cookieSet);
+		Log.info("获取Cookie成功，并写入cookie.properties");
+		pro.writePro(cookieList);
 	}
 }
