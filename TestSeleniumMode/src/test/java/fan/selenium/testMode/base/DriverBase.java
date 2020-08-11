@@ -2,16 +2,14 @@ package fan.selenium.testMode.base;
 
 import fan.selenium.testMode.page.DriverElementPage;
 import fan.selenium.testMode.util.HandleCookie;
+import fan.selenium.testMode.util.HandleSession;
 import fan.selenium.testMode.util.log;
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 public class DriverBase {
     public WebDriver driver;
@@ -26,10 +24,10 @@ public class DriverBase {
 
 
     //获取文案
-    public void getText(String node, String elementName, String parameters, String CaseName) throws Exception {
-        String text = driverElement.DrElement(elementName, node).getText();
+    public void getText(String mode, String elementName, String parameters, String CaseName) throws Exception {
+        String text = driverElement.DrElement(mode, elementName).getText();
         if (text.equals(parameters)) {
-            log.info(CaseName + "验证通过");
+            log.error(CaseName + "验证通过，获取结果为：" + text + "；要求结果为：" + parameters);
         }else {
             log.error(CaseName + "验证失败，获取结果为：" + text + "；要求结果为：" + parameters);
             throw new Exception("验证失败");
@@ -39,6 +37,16 @@ public class DriverBase {
     public void getCookie(){
         HandleCookie handleCookie = new HandleCookie(driver);
         handleCookie.writeCookie();
+    }
+    //获取Session
+    public void getSeesion() throws Exception {
+        HandleSession handleSession = new HandleSession(driver);
+        handleSession.writeSession();
+    }
+    //设置Session
+    public void setSeesion(String parameters) {
+        HandleSession handleSession = new HandleSession(driver);
+        handleSession.setSession(parameters);
     }
     //设置Cookie
     public void setCookies(String parameters){
@@ -92,9 +100,9 @@ public class DriverBase {
         return handles;
     }
     //移动鼠标
-    public void moveToElement(String elementName, String node) throws Exception {
+    public void moveToElement(String mode, String elementName) throws Exception {
         Actions actions = new Actions(driver);
-        actions.moveToElement(driverElement.DrElement(elementName, node)).perform();
+        actions.moveToElement(driverElement.DrElement(mode, elementName)).perform();
     }
     //切换alert窗口
     public void switchAlert(String parameters){
@@ -105,20 +113,20 @@ public class DriverBase {
         }
     }
     //切换frame窗口
-    public void frame(String elementName, String node) throws Exception {
-        driver.switchTo().frame(driverElement.DrElement(elementName, node));
+    public void frame(String mode, String elementName) throws Exception {
+        driver.switchTo().frame(driverElement.DrElement(mode, elementName));
     }
     //封装输入
-    public void sendKeys(String elementName, String node, String value) throws Exception {
-        driverElement.DrElement(elementName, node).sendKeys(value);
+    public void sendKeys(String mode, String elementName, String value) throws Exception {
+        driverElement.DrElement(mode, elementName).sendKeys(value);
     }
     //封装点击
-    public void click(String elementName, String node) throws Exception {
-        driverElement.DrElement(elementName, node).click();
+    public void click(String mode, String elementName) throws Exception {
+        driverElement.DrElement(mode, elementName).click();
     }
     //清除当前文本框
-    public void clear(String elementName, String node) throws Exception {
-        driverElement.DrElement(elementName, node).clear();
+    public void clear(String mode, String elementName) throws Exception {
+        driverElement.DrElement(mode, elementName).clear();
     }
     //关闭驱动
     public void close(){

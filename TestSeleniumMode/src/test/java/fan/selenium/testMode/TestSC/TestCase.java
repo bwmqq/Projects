@@ -1,16 +1,16 @@
 package fan.selenium.testMode.TestSC;
 
-import fan.selenium.testMode.base.DriverElement;
+import fan.selenium.testMode.handle.DriverHandle;
 import fan.selenium.testMode.base.SelectDriver;
 import fan.selenium.testMode.util.*;
 import org.apache.log4j.xml.DOMConfigurator;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.ITestContext;
 import org.testng.annotations.*;
 
 import java.io.IOException;
+import java.util.concurrent.TimeUnit;
 
 public class TestCase {
     public WebDriver driver;
@@ -39,7 +39,7 @@ public class TestCase {
         log.startTestCase(CaseName);
         log.info("调用DriverElement类的execute方法");
         try {
-            DriverElement.execute(driver, CaseName, Preconditions, elementName, mode, objects, actions, parameters);
+            DriverHandle.execute(driver, CaseName, Preconditions, elementName, mode, objects, actions, parameters);
         } catch (Exception e) {
 
              //执行AddContactPersonAction类的execute方法失败时，catch语句可以捕获AssertionError类型
@@ -73,7 +73,7 @@ public class TestCase {
     public void beforeMethod(String driverName){
         SelectDriver selectDriver = new SelectDriver();
         driver = selectDriver.driverName(driverName);
-        //driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
     }
     @AfterTest
     public void afterMethod() throws InterruptedException {

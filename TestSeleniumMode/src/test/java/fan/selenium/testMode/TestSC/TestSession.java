@@ -1,6 +1,8 @@
 package fan.selenium.testMode.TestSC;
 
+import fan.selenium.testMode.util.Constant;
 import fan.selenium.testMode.util.log;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.html5.SessionStorage;
 import org.testng.annotations.Test;
@@ -16,10 +18,11 @@ public class TestSession {
     public void Test() throws Exception {
         System.setProperty("webdriver.chrome.driver", "../TestExcel/driver/chromedriver.exe");
         log.info("启动谷歌浏览器");
-        ChromeDriver driver = new ChromeDriver();
+        ChromeDriver driver = (ChromeDriver) new ChromeDriver();
         driver.get("https://healthpc.qajeejio.com/");
         driver.manage().window().maximize();
-        /*driver.findElementByCssSelector("input[type='text']").sendKeys("17701333349");
+        driver.switchTo().alert().accept();
+        driver.findElementByCssSelector("input[type='text']").sendKeys("17701333349");
         driver.findElementByCssSelector("input[type='password']").sendKeys("1234qwer");
         Thread.sleep(500);
         driver.findElementByCssSelector(".BlueLogin").click();
@@ -28,13 +31,12 @@ public class TestSession {
         Set<String> strings = sessionStorage.keySet();
         List<String> strings1 = new ArrayList<String>(strings);
         Properties pro = new Properties();
-        FileOutputStream file = new FileOutputStream("../TestExcel/src/test/resources/session.properties");
+        FileOutputStream file = new FileOutputStream(Constant.TestDataSessionFilePath);
         for (String key : strings1) {
             pro.setProperty(key, sessionStorage.getItem(key));
         }
         pro.store(file, "Session");
-        sessionStorage.setItem("1111", "22222");
-        driver.navigate().refresh();*/
+
 
         /*System.setProperty("webdriver.chrome.driver", "../TestExcel/driver/chromedriver.exe");
         log.info("启动谷歌浏览器");

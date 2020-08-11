@@ -1,33 +1,34 @@
-package fan.selenium.testMode.base;
+package fan.selenium.testMode.handle;
 
+import fan.selenium.testMode.base.DriverBase;
 import fan.selenium.testMode.util.log;
 import org.openqa.selenium.WebDriver;
 
 import java.util.List;
 
-public class DriverElement {
+public class DriverHandle {
 
-    public static void execute (WebDriver driver, String CaseName, String Preconditions, String elementName, String node,
+    public static void execute (WebDriver driver, String CaseName, String Preconditions, String elementName, String mode,
                                 String objects, String actions, String parameters) throws Exception {
         DriverBase driverBase = new DriverBase(driver);
         if (objects.equals("element")){
             if (actions.equals("click")){
                 //点击
-                driverBase.click(elementName, node);
+                driverBase.click(mode, elementName);
             }else if (actions.equals("getText")){
-                driverBase.getText(elementName, node, parameters, CaseName);
+                driverBase.getText(mode, elementName, parameters, CaseName);
             }else if (actions.equals("moveToElement")){
                 //切换iframa
-                driverBase.moveToElement(elementName, node);
+                driverBase.moveToElement(mode, elementName);
             }else if (actions.equals("frame")){
                 //切换iframa
-                driverBase.frame(elementName, node);
+                driverBase.frame(mode, elementName);
             }else if (actions.equals("sendKeys")){
                 //输入
-                driverBase.sendKeys(elementName, node, parameters);
+                driverBase.sendKeys(mode, elementName, parameters);
             }else if (actions.equals("clear")){
                 //清除
-                driverBase.clear(elementName, node);
+                driverBase.clear(mode, elementName);
             }else {
                 log.info("所需要的操作不支持，请完善！！！");
             }
@@ -44,6 +45,12 @@ public class DriverElement {
             }else if (actions.equals("setCookie")){
                 //写入Cookies
                 driverBase.setCookies(parameters);
+            }else if (actions.equals("getSession")){
+                //获取Cookies
+                driverBase.getSeesion();
+            }else if (actions.equals("setSession")){
+                //写入Cookies
+                driverBase.setSeesion(parameters);
             }else if (actions.equals("refresh")){
                 //刷新
                 driverBase.refresh();

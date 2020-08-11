@@ -23,73 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97fefd88-bcd8-411f-a716-05fdd3f17849" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../TestExcel1/.idea/TestExcel.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestExcel1/.idea/TestExcel1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestExcel1/TestExcel.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestExcel1/errorImages/2020-8-6/10时46分53秒点击技能包tab失败.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestExcel1/errorImages/2020-8-6/10时47分13秒点击查看失败.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestExcel1/errorImages/2020-8-6/10时47分13秒点击阶段信息失败.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/TestSeleniumMode.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Excel/TestExcelCase.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Excel/TestExcelMode.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Log4j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestSeleniumMode.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/driver/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/driver/geckodriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/driver/operadriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/log4j.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fan/selenium/testMode/TestSC/TestCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fan/selenium/testMode/TestSC/TestSession.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fan/selenium/testMode/base/DriverBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fan/selenium/testMode/base/DriverElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fan/selenium/testMode/base/SelectDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fan/selenium/testMode/page/DriverElementPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fan/selenium/testMode/util/Constant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fan/selenium/testMode/util/DataUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fan/selenium/testMode/util/ExcelUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fan/selenium/testMode/util/FileUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fan/selenium/testMode/util/HandleCookie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fan/selenium/testMode/util/ObjectMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fan/selenium/testMode/util/ProCookieUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fan/selenium/testMode/util/Screenshot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fan/selenium/testMode/util/SendEmail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fan/selenium/testMode/util/WaitMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fan/selenium/testMode/util/log.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/cookie.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/objectMap.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/session.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/example/App.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/cookie.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/fan/selenium/testMode/TestSC/TestCase.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/fan/selenium/testMode/TestSC/TestSession.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/fan/selenium/testMode/base/DriverBase.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/fan/selenium/testMode/base/DriverElement.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/fan/selenium/testMode/base/SelectDriver.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/fan/selenium/testMode/page/DriverElementPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/fan/selenium/testMode/util/Constant.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/fan/selenium/testMode/util/DataUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/fan/selenium/testMode/util/ExcelUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/fan/selenium/testMode/util/FileUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/fan/selenium/testMode/util/HandleCookie.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/fan/selenium/testMode/util/ObjectMap.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/fan/selenium/testMode/util/ProCookieUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/fan/selenium/testMode/util/Screenshot.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/fan/selenium/testMode/util/SendEmail.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/fan/selenium/testMode/util/WaitMethod.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/fan/selenium/testMode/util/log.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/objectMap.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/session.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excel/SeleniumTest.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excel/TestSeleniumCase.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fan/selenium/testMode/util/HandleSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fan/selenium/testMode/util/ProSessionUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TestAppium/src/test/java/com/fxy/testApp/TestAppium.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TestAppium/src/test/java/com/fxy/testApp/TestAppium.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TestAppium/target/test-classes/com/fxy/testApp/TestAppium.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TestAppium/target/test-classes/com/fxy/testApp/TestAppium.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TestBDS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TestBDS/.idea/workspace.xml" afterDir="false" />
@@ -98,6 +35,26 @@
       <change beforePath="$PROJECT_DIR$/../TestExcel/errorImages/2020-7-14/16时52分1秒点击登录失败.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../TestExcel/errorImages/2020-7-14/16时52分21秒验证登录用户信息失败.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../TestExcel/logs/log4j.log" beforeDir="false" afterPath="$PROJECT_DIR$/../TestExcel/logs/log4j.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/resources/session.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../TestExcel/src/test/resources/session.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestInOut/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestInOut/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Excel/TestExcelCase.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Excel/TestExcelMode.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/fan/selenium/testMode/TestSC/TestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fan/selenium/testMode/TestSC/TestCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/fan/selenium/testMode/TestSC/TestSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fan/selenium/testMode/TestSC/TestSession.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/fan/selenium/testMode/base/DriverBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fan/selenium/testMode/base/DriverBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/fan/selenium/testMode/base/DriverElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fan/selenium/testMode/handle/DriverHandle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/fan/selenium/testMode/util/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fan/selenium/testMode/util/Constant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/session.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/session.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/fan/selenium/testMode/TestSC/TestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/fan/selenium/testMode/TestSC/TestCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/fan/selenium/testMode/TestSC/TestSession.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/fan/selenium/testMode/TestSC/TestSession.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/fan/selenium/testMode/base/DriverBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/fan/selenium/testMode/base/DriverBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/fan/selenium/testMode/base/DriverElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/fan/selenium/testMode/util/Constant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/fan/selenium/testMode/util/Constant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/fan/selenium/testMode/util/ExcelUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/fan/selenium/testMode/util/ExcelUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/session.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/session.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,12 +99,16 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="fan.selenium.testMode.util" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Projects\TestSeleniumMode\Excel" />
       <recent name="E:\Projects\TestSeleniumMode\src\test\java\fan\selenium\testMode\TestSC" />
@@ -156,18 +117,7 @@
       <recent name="E:\Projects\TestSeleniumMode" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.E:/Projects/TestSeleniumMode/testng.xml">
     <configuration name="E:/Projects/TestSeleniumMode/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestSeleniumMode" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
@@ -178,9 +128,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestSession.Test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestSeleniumMode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fan.selenium.testMode.TestSC.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fan.selenium.testMode.TestSC" />
+      <option name="MAIN_CLASS_NAME" value="fan.selenium.testMode.TestSC.TestSession" />
+      <option name="METHOD_NAME" value="Test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.E:/Projects/TestSeleniumMode/testng.xml" />
+        <item itemvalue="TestNG.TestSession.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -205,6 +174,9 @@
       <workItem from="1596708938126" duration="12462000" />
       <workItem from="1596779023737" duration="12418000" />
       <workItem from="1597051008278" duration="1703000" />
+      <workItem from="1597052729418" duration="5754000" />
+      <workItem from="1597112043886" duration="1580000" />
+      <workItem from="1597113639942" duration="2445000" />
     </task>
     <servers />
   </component>
@@ -232,46 +204,46 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1596781910065" />
-    <state x="677" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597043815426">
+    <state x="677" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597052870257">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="677" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1597043815426" />
+    <state x="677" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1597052870257" />
     <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1597048172178">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1597048172178" />
-    <state width="1877" height="234" key="GridCell.Tab.0.bottom" timestamp="1597052712215">
+    <state width="1877" height="234" key="GridCell.Tab.0.bottom" timestamp="1597116168741">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="234" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1597052712215" />
-    <state width="1877" height="234" key="GridCell.Tab.0.center" timestamp="1597052712215">
+    <state width="1877" height="234" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1597116168741" />
+    <state width="1877" height="234" key="GridCell.Tab.0.center" timestamp="1597116168741">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="234" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1597052712215" />
-    <state width="1877" height="234" key="GridCell.Tab.0.left" timestamp="1597052712215">
+    <state width="1877" height="234" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1597116168741" />
+    <state width="1877" height="234" key="GridCell.Tab.0.left" timestamp="1597116168741">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="234" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1597052712215" />
-    <state width="1877" height="234" key="GridCell.Tab.0.right" timestamp="1597052712215">
+    <state width="1877" height="234" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1597116168741" />
+    <state width="1877" height="234" key="GridCell.Tab.0.right" timestamp="1597116168741">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="234" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1597052712215" />
-    <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1597050205684">
+    <state width="1877" height="234" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1597116168741" />
+    <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1597113626194">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1597050205684" />
-    <state width="1877" height="352" key="GridCell.Tab.1.center" timestamp="1597050205684">
+    <state width="1877" height="352" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1597113626194" />
+    <state width="1877" height="352" key="GridCell.Tab.1.center" timestamp="1597113626193">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1597050205684" />
-    <state width="1877" height="352" key="GridCell.Tab.1.left" timestamp="1597050205684">
+    <state width="1877" height="352" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1597113626193" />
+    <state width="1877" height="352" key="GridCell.Tab.1.left" timestamp="1597113626193">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1597050205684" />
-    <state width="1877" height="352" key="GridCell.Tab.1.right" timestamp="1597050205684">
+    <state width="1877" height="352" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1597113626193" />
+    <state width="1877" height="352" key="GridCell.Tab.1.right" timestamp="1597113626193">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1597050205684" />
+    <state width="1877" height="352" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1597113626193" />
     <state x="770" y="171" key="SettingsEditor" timestamp="1596783733352">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
