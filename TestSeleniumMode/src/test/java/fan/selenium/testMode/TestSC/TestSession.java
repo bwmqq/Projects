@@ -2,11 +2,13 @@ package fan.selenium.testMode.TestSC;
 
 import fan.selenium.testMode.util.Constant;
 import fan.selenium.testMode.util.log;
+import org.apache.log4j.xml.DOMConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.html5.SessionStorage;
 import org.testng.annotations.Test;
 
+import java.awt.*;
 import java.io.FileOutputStream;
 import java.util.ArrayList;
 import java.util.List;
@@ -16,13 +18,23 @@ import java.util.Set;
 public class TestSession {
     @Test
     public void Test() throws Exception {
-        System.setProperty("webdriver.chrome.driver", "../TestExcel/driver/chromedriver.exe");
+        DOMConfigurator.configure("Log4j.xml");
+        System.setProperty("webdriver.chrome.driver", Constant.TestDatachromedriverPath);
         log.info("启动谷歌浏览器");
         ChromeDriver driver = (ChromeDriver) new ChromeDriver();
         driver.get("https://healthpc.qajeejio.com/");
         driver.manage().window().maximize();
-        driver.switchTo().alert().accept();
-        driver.findElementByCssSelector("input[type='text']").sendKeys("17701333349");
+        Rectangle windowSize = new Rectangle();
+        Dimension scrSize = Toolkit.getDefaultToolkit().getScreenSize();
+        Insets scrInsets = Toolkit.getDefaultToolkit().getScreenInsets(GraphicsEnvironment.getLocalGraphicsEnvironment().getDefaultScreenDevice().getDefaultConfiguration());
+
+//获取屏幕可以利用的width和height
+//windowSize.setBounds(scrInsets.left, scrInsets.top, scrSize.width - scrInsets.left - scrInsets.right, scrSize.height - scrInsets.top - scrInsets.bottom);
+
+//获取屏幕的分辨率
+        windowSize.setBounds(scrInsets.left, scrInsets.top, scrSize.width, scrSize.height);
+        log.info("The window size is : "+windowSize + scrSize.height);
+        /*driver.findElementByCssSelector("input[type='text']").sendKeys("17701333349");
         driver.findElementByCssSelector("input[type='password']").sendKeys("1234qwer");
         Thread.sleep(500);
         driver.findElementByCssSelector(".BlueLogin").click();
@@ -35,7 +47,7 @@ public class TestSession {
         for (String key : strings1) {
             pro.setProperty(key, sessionStorage.getItem(key));
         }
-        pro.store(file, "Session");
+        pro.store(file, "Session");*/
 
 
         /*System.setProperty("webdriver.chrome.driver", "../TestExcel/driver/chromedriver.exe");

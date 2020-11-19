@@ -37,6 +37,7 @@ public class TestCase {
     public void testEC(String CaseRow, String CaseName, String Preconditions, String elementName, String mode, String objects,
                        String actions, String parameters) throws Exception {
         log.startTestCase(CaseName);
+        Thread.sleep(2000);
         log.info("调用DriverElement类的execute方法");
         try {
             DriverHandle.execute(driver, CaseName, Preconditions, elementName, mode, objects, actions, parameters);

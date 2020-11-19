@@ -26,6 +26,11 @@ public class HandleSession {
 			sessionStorage.setItem(split[i], value);
 		}
 		this.driver = (WebDriver) driver1;
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
 		driver.navigate().refresh();
 	}
 	//获取session

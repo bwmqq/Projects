@@ -23,18 +23,118 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97fefd88-bcd8-411f-a716-05fdd3f17849" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../TestAppium/.idea/TestAppium.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/log4j.log.2020-11-13" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fan/selenium/testMode/util/PhotoMove.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TestAppium/src/test/java/com/fxy/testApp/TestAppium.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TestAppium/src/test/java/com/fxy/testApp/TestAppium.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TestAppium/target/test-classes/com/fxy/testApp/TestAppium.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TestAppium/target/test-classes/com/fxy/testApp/TestAppium.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestBDS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TestBDS/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestBDS/target/test-classes/com/fxy/baidu/testCase/TestTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TestBDS/target/test-classes/com/fxy/baidu/testCase/TestTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestExcel/Excel/SeleniumTest.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../TestExcel/Excel/SeleniumTest.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/.idea/$CACHE_FILE$" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/.idea/TestExcel.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/Excel/Excel模板.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/Excel/SeleniumTest.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/Log4j.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/TestExcel.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/driver/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/driver/geckodriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/driver/operadriver.exe" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../TestExcel/errorImages/2020-7-14/16时52分1秒点击登录失败.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../TestExcel/errorImages/2020-7-14/16时52分21秒验证登录用户信息失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestExcel/logs/log4j.log" beforeDir="false" afterPath="$PROJECT_DIR$/../TestExcel/logs/log4j.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/resources/session.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../TestExcel/src/test/resources/session.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/logs/log4j.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/TestEC/TestS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/TestEC/TestSession.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/appModules/AddContactPersonAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/appModules/LoginAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/baseTest/DriverElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/baseTest/SelectDriver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/pageObjects/AddressBookPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/pageObjects/HomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/pageObjects/LinkmanPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/pageObjects/LoginPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/pageObjects/WaitByElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/pageTest/DriverElementPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/testCase/TestEmail163Login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/testCase/TestEmail163addContactPerson.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/util/Constant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/util/DataUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/util/ExcelUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/util/FileUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/util/HandleCookie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/util/ObjectMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/util/ProUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/util/Screenshot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/util/SendEmail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/util/WaitMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/java/com/test/util/log.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/resources/cookie.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/resources/objectMap.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/src/test/resources/session.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/target/test-classes/com/test/TestEC/TestS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/target/test-classes/com/test/TestEC/TestSession.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/target/test-classes/com/test/appModules/AddContactPersonAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/target/test-classes/com/test/appModules/LoginAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/target/test-classes/com/test/baseTest/DriverElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/target/test-classes/com/test/baseTest/SelectDriver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/target/test-classes/com/test/pageObjects/AddressBookPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/target/test-classes/com/test/pageObjects/HomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/target/test-classes/com/test/pageObjects/LinkmanPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/target/test-classes/com/test/pageObjects/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/target/test-classes/com/test/pageObjects/WaitByElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/target/test-classes/com/test/pageTest/DriverElementPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/target/test-classes/com/test/testCase/TestEmail163Login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/target/test-classes/com/test/testCase/TestEmail163addContactPerson.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/target/test-classes/com/test/util/Constant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/target/test-classes/com/test/util/DataUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/target/test-classes/com/test/util/ExcelUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/target/test-classes/com/test/util/FileUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/target/test-classes/com/test/util/HandleCookie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/target/test-classes/com/test/util/ObjectMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/target/test-classes/com/test/util/ProUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/target/test-classes/com/test/util/Screenshot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/target/test-classes/com/test/util/SendEmail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/target/test-classes/com/test/util/WaitMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/target/test-classes/com/test/util/log.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/target/test-classes/cookie.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/target/test-classes/objectMap.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/target/test-classes/session.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel/testng.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel1/.idea/TestExcel.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel1/.idea/TestExcel1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel1/TestExcel.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel1/errorImages/2020-8-6/10时46分53秒点击技能包tab失败.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel1/errorImages/2020-8-6/10时47分13秒点击查看失败.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExcel1/errorImages/2020-8-6/10时47分13秒点击阶段信息失败.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../TestInOut/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../TestInOut/src/main/webapp/index.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Excel/SeleniumTest.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Excel/SeleniumTest.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Excel/TestSeleniumCase.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Excel/TestSeleniumCase.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/errorImages/2020-8-11/10时41分43秒验证登录用户信息失败.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/log4j.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log4j.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/fan/selenium/testMode/TestSC/TestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fan/selenium/testMode/TestSC/TestCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/fan/selenium/testMode/TestSC/TestSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fan/selenium/testMode/TestSC/TestSession.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/fan/selenium/testMode/base/DriverBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fan/selenium/testMode/base/DriverBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/fan/selenium/testMode/handle/DriverHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fan/selenium/testMode/handle/DriverHandle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/fan/selenium/testMode/util/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fan/selenium/testMode/util/Constant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/fan/selenium/testMode/util/HandleSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fan/selenium/testMode/util/HandleSession.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/cookie.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/cookie.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/session.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/session.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cookie.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cookie.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/fan/selenium/testMode/TestSC/TestSession.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/fan/selenium/testMode/TestSC/TestSession.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/fan/selenium/testMode/base/DriverBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/fan/selenium/testMode/base/DriverBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/fan/selenium/testMode/handle/DriverHandle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/fan/selenium/testMode/handle/DriverHandle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/fan/selenium/testMode/util/Constant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/fan/selenium/testMode/util/Constant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/fan/selenium/testMode/util/HandleSession.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/fan/selenium/testMode/util/HandleSession.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/session.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/session.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,16 +156,20 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHome" value="E:\Intalls\JetBrains\IntelliJ IDEA 2020.2\plugins\maven\lib\maven3" />
+        <option name="userSettingsFile" value="E:\Intalls\JetBrains\IntelliJ IDEA 2020.2\plugins\maven\lib\maven3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
   <component name="ProjectId" id="1ffeqF5MO9lJV10HL7DJzdlavie" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -80,13 +184,17 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Projects\TestSeleniumMode\src\test\java" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="fan.selenium.testMode.TestSC" />
       <recent name="fan.selenium.testMode.util" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -98,10 +206,55 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.E:/Projects/TestSeleniumMode/testng.xml">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="E:/Projects/TestSeleniumMode/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestSeleniumMode" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCase" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestSeleniumMode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fan.selenium.testMode.TestSC.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fan.selenium.testMode.TestSC" />
+      <option name="MAIN_CLASS_NAME" value="fan.selenium.testMode.TestSC.TestCase" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSession" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestSeleniumMode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fan.selenium.testMode.TestSC.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fan.selenium.testMode.TestSC" />
+      <option name="MAIN_CLASS_NAME" value="fan.selenium.testMode.TestSC.TestSession" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -126,10 +279,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestTest.aaa" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestSeleniumMode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.TestTest" />
+      <option name="METHOD_NAME" value="aaa" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.E:/Projects/TestSeleniumMode/testng.xml" />
         <item itemvalue="TestNG.TestSession.Test" />
+        <item itemvalue="TestNG.TestCase" />
+        <item itemvalue="TestNG.TestTest.aaa" />
+        <item itemvalue="TestNG.TestSession" />
       </list>
     </recent_temporary>
   </component>
@@ -158,6 +332,13 @@
       <workItem from="1597112043886" duration="1580000" />
       <workItem from="1597113639942" duration="2550000" />
       <workItem from="1597116833212" duration="42000" />
+      <workItem from="1601286451824" duration="20100000" />
+      <workItem from="1602298082042" duration="17000" />
+      <workItem from="1604559098130" duration="662000" />
+      <workItem from="1605081405232" duration="8723000" />
+      <workItem from="1605181134536" duration="8444000" />
+      <workItem from="1605510945653" duration="433000" />
+      <workItem from="1605690400064" duration="6281000" />
     </task>
     <servers />
   </component>
@@ -176,62 +357,82 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="621" y="123" key="#TestCase" timestamp="1596705321127">
+    <state x="677" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605181243421">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="621" y="123" key="#TestCase/0.0.1920.1050@0.0.1920.1050" timestamp="1596705321127" />
-    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596781910065">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1596781910065" />
-    <state x="677" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597052870257">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
+    <state x="677" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050/1920.0.1080.1890@0.0.1920.1050" timestamp="1605181243421" />
     <state x="677" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1597052870257" />
-    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1597048172178">
+    <state x="690" y="271" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1601350305617">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1597048172178" />
-    <state width="1877" height="234" key="GridCell.Tab.0.bottom" timestamp="1597116874788">
+    <state x="690" y="271" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1601350305617" />
+    <state x="123" y="140" width="1736" height="866" key="DiffContextDialog" timestamp="1605086195614">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="234" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1597116874788" />
-    <state width="1877" height="234" key="GridCell.Tab.0.center" timestamp="1597116874787">
+    <state x="123" y="140" width="1736" height="866" key="DiffContextDialog/0.0.1920.1050/1920.0.1080.1890@0.0.1920.1050" timestamp="1605086195614" />
+    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1605327995276">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="234" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1597116874787" />
-    <state width="1877" height="234" key="GridCell.Tab.0.left" timestamp="1597116874787">
+    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1080.1890@0.0.1920.1050" timestamp="1605327995276" />
+    <state width="1877" height="250" key="GridCell.Tab.0.bottom" timestamp="1605695169138">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="234" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1597116874787" />
-    <state width="1877" height="234" key="GridCell.Tab.0.right" timestamp="1597116874787">
+    <state width="1877" height="250" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1080.1890@0.0.1920.1050" timestamp="1605695169138" />
+    <state width="1037" height="562" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1080.1890@1920.0.1080.1890" timestamp="1605082708880" />
+    <state width="1877" height="291" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1601436726863" />
+    <state width="1877" height="250" key="GridCell.Tab.0.center" timestamp="1605695169138">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="234" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1597116874787" />
-    <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1597113626194">
+    <state width="1877" height="250" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1080.1890@0.0.1920.1050" timestamp="1605695169138" />
+    <state width="1037" height="562" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1080.1890@1920.0.1080.1890" timestamp="1605082708880" />
+    <state width="1877" height="291" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1601436726863" />
+    <state width="1877" height="250" key="GridCell.Tab.0.left" timestamp="1605695169138">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1597113626194" />
-    <state width="1877" height="352" key="GridCell.Tab.1.center" timestamp="1597113626193">
+    <state width="1877" height="250" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1080.1890@0.0.1920.1050" timestamp="1605695169138" />
+    <state width="1037" height="562" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1080.1890@1920.0.1080.1890" timestamp="1605082708880" />
+    <state width="1877" height="291" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1601436726863" />
+    <state width="1877" height="250" key="GridCell.Tab.0.right" timestamp="1605695169138">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1597113626193" />
-    <state width="1877" height="352" key="GridCell.Tab.1.left" timestamp="1597113626193">
+    <state width="1877" height="250" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1080.1890@0.0.1920.1050" timestamp="1605695169138" />
+    <state width="1037" height="562" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1080.1890@1920.0.1080.1890" timestamp="1605082708880" />
+    <state width="1877" height="291" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1601436726863" />
+    <state width="938" height="352" key="GridCell.Tab.1.bottom" timestamp="1605690798882">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1597113626193" />
-    <state width="1877" height="352" key="GridCell.Tab.1.right" timestamp="1597113626193">
+    <state width="938" height="352" key="GridCell.Tab.1.bottom/0.0.1920.1050/1920.0.1080.1890@0.0.1920.1050" timestamp="1605690798882" />
+    <state width="1877" height="352" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1601360582092" />
+    <state width="938" height="352" key="GridCell.Tab.1.center" timestamp="1605690798882">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1597113626193" />
-    <state x="770" y="171" key="SettingsEditor" timestamp="1596783733352">
+    <state width="938" height="352" key="GridCell.Tab.1.center/0.0.1920.1050/1920.0.1080.1890@0.0.1920.1050" timestamp="1605690798882" />
+    <state width="1877" height="352" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1601360582092" />
+    <state width="938" height="352" key="GridCell.Tab.1.left" timestamp="1605690798882">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="770" y="171" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1596783733352" />
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1597050191469">
+    <state width="938" height="352" key="GridCell.Tab.1.left/0.0.1920.1050/1920.0.1080.1890@0.0.1920.1050" timestamp="1605690798882" />
+    <state width="1877" height="352" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1601360582092" />
+    <state width="938" height="352" key="GridCell.Tab.1.right" timestamp="1605690798882">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1597050191469" />
+    <state width="938" height="352" key="GridCell.Tab.1.right/0.0.1920.1050/1920.0.1080.1890@0.0.1920.1050" timestamp="1605690798882" />
+    <state width="1877" height="352" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1601360582092" />
+    <state x="770" y="171" key="SettingsEditor" timestamp="1605328262086">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="770" y="171" key="SettingsEditor/0.0.1920.1050/1920.0.1080.1890@0.0.1920.1050" timestamp="1605328262086" />
+    <state x="668" y="258" key="VcsDiffUtil.ChangesDialog" timestamp="1605085633946">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="668" y="258" key="VcsDiffUtil.ChangesDialog/0.0.1920.1050/1920.0.1080.1890@0.0.1920.1050" timestamp="1605085633946" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1605256891838">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/1920.0.1080.1890@0.0.1920.1050" timestamp="1605256891838" />
   </component>
 </project>

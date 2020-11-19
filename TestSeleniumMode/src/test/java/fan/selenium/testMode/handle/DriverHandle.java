@@ -36,6 +36,10 @@ public class DriverHandle {
             if (actions.equals("get")){
                 //打开网页
                 driverBase.get(parameters, Preconditions);
+            }else if (actions.equals("movePhoto")){
+                //获取Cookies
+                log.info(elementName);
+                driverBase.movePhoto(elementName);
             }else if (actions.equals("Thead")){
                 //等待3秒
                 Thread.sleep(Long.valueOf(parameters));
@@ -83,7 +87,7 @@ public class DriverHandle {
                 driverBase.switchAlert(parameters);
             }else if (actions.equals("max")){
                 //最大化浏览器
-                driverBase.maxmize();
+                driverBase.maxmize(Preconditions);
             }else if (actions.equals("back")){
                 //返回
                 driverBase.back();

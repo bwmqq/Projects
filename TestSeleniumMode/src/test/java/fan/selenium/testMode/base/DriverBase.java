@@ -3,10 +3,12 @@ package fan.selenium.testMode.base;
 import fan.selenium.testMode.page.DriverElementPage;
 import fan.selenium.testMode.util.HandleCookie;
 import fan.selenium.testMode.util.HandleSession;
+import fan.selenium.testMode.util.PhotoMove;
 import fan.selenium.testMode.util.log;
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
 import java.util.*;
@@ -141,11 +143,21 @@ public class DriverBase {
     public void back(){
         driver.navigate().back();
     }
-    //自定义浏览器大小
-
+    //滑动验证码
+    public void movePhoto(String elementName) throws InterruptedException {
+        ChromeDriver driver1 = (ChromeDriver) this.driver;
+        PhotoMove photoMove = new PhotoMove(driver1);
+        photoMove.loginNext(elementName);
+        this.driver = (WebDriver) driver1;
+    }
     //网页最大化
-    public void maxmize(){
-        driver.manage().window().maximize();
+    public void maxmize(String Preconditions){
+        if (null != Preconditions){
+            String[] split = Preconditions.split(",");
+            driver.manage().window().setSize(new Dimension(Integer.parseInt(split[0]), Integer.parseInt(split[1])));
+        }else {
+            driver.manage().window().maximize();
+        }
     }
     //访问地址
     public void get(String url, String preconditions){
